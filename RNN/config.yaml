@@ -1,0 +1,57 @@
+input_features:
+    -
+        name: S1
+        type: timeseries
+        encoder: rnn
+        bidirectional: true
+        cell_type: lstm
+        num_layers: 1
+        weights_initializer: he_uniform
+        num_fc_layers: 3
+
+    -
+        name: S2
+        type: timeseries
+        encoder: rnn
+        bidirectional: true
+        cell_type: lstm
+        num_layers: 1
+        weights_initializer: he_uniform
+        num_fc_layers: 3
+
+    -
+        name: S3
+        type: timeseries
+        encoder: rnn
+        bidirectional: true
+        cell_type: lstm
+        num_layers: 1
+        weights_initializer: he_uniform
+        num_fc_layers: 3
+
+    -
+        name: S4
+        type: timeseries
+        encoder: rnn
+        bidirectional: true
+        cell_type: lstm
+        num_layers: 1
+        weights_initializer: he_uniform
+        num_fc_layers: 3
+
+
+output_features:
+    -
+        name: X
+        type: numerical
+        loss:
+            type: mean_squared_error
+    -
+        name: Y
+        type: numerical
+        loss:
+            type: mean_squared_error
+    
+training:
+    early_stop: 5
+    monitor: mean_squared_error

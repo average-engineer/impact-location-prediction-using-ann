@@ -1,0 +1,69 @@
+{
+    "S1": {
+        "max_timeseries_length": 256,
+        "preprocessing": {
+            "computed_fill_value": "",
+            "fill_value": "",
+            "missing_value_strategy": "fill_with_const",
+            "padding": "right",
+            "padding_value": 0,
+            "timeseries_length_limit": 256,
+            "tokenizer": "space"
+        }
+    },
+    "S2": {
+        "max_timeseries_length": 256,
+        "preprocessing": {
+            "computed_fill_value": "",
+            "fill_value": "",
+            "missing_value_strategy": "fill_with_const",
+            "padding": "right",
+            "padding_value": 0,
+            "timeseries_length_limit": 256,
+            "tokenizer": "space"
+        }
+    },
+    "S3": {
+        "max_timeseries_length": 256,
+        "preprocessing": {
+            "computed_fill_value": "",
+            "fill_value": "",
+            "missing_value_strategy": "fill_with_const",
+            "padding": "right",
+            "padding_value": 0,
+            "timeseries_length_limit": 256,
+            "tokenizer": "space"
+        }
+    },
+    "S4": {
+        "max_timeseries_length": 256,
+        "preprocessing": {
+            "computed_fill_value": "",
+            "fill_value": "",
+            "missing_value_strategy": "fill_with_const",
+            "padding": "right",
+            "padding_value": 0,
+            "timeseries_length_limit": 256,
+            "tokenizer": "space"
+        }
+    },
+    "X": {
+        "preprocessing": {
+            "computed_fill_value": 0,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": null
+        }
+    },
+    "Y": {
+        "preprocessing": {
+            "computed_fill_value": 0,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": null
+        }
+    },
+    "checksum": "nLweN_I40LJbjlFdpS8EuQ==",
+    "data_train_hdf5_fp": "/home/raj/Documents/CIE/git/project-b-cie/ludwig/rnn.training.hdf5",
+    "dataset_src": "/home/raj/Documents/CIE/git/project-b-cie/ludwig/rnn.csv"
+}
