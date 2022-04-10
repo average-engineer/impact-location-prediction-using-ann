@@ -15,6 +15,9 @@ pip install -r requirements.txt
 # 2. Data
 Run `dataParser.py` to parse all numerical data, experimental validation data and group specific data from the remote directory Sciebo maintained by RWTH Aachen University. `dataParser.py` saves the unbalanced datasets to the local directory `saved_variables`. Run `dataBalance.py` to save the completely balanced dataset to the local directory `saved_variables/Balanced_Data`. Run `skewedData.py` to save the datasets for various cases of skewness in the local directory `saved_variables/Skewed_Data`.
 
+***In case the database server maintained by RWTH in Sciebo becomes outdated, or the data is deleted by the university itself, please feel free to get in touch with Ashutosh via EMail. The email ID can be accessed from Ashutosh's Github profile.***
+
+
 # 3. CNN Architecture
 ## cnnXYModel.py is the main program used to call different saved trained and validated CNN models. This program uses the directories saved_model and saved_variable to import the desired models.
 
@@ -70,3 +73,7 @@ The dataBalance.py is used to save the balanced data in the saved_variables dire
 
 ## 9. skewedData.py
 The skewedData.py is used to save the skewed data in the saved_variables directory (here the dataAugment.py and removeArrFromList.py are used under the hood)
+
+*The final documentation of the entire project can be accessed in 2 ways:*
+* Referring to the LaTeX report which can be accessed from this repository itself.
+* Referring to the Wiki page of the repository which is almost a copy of the LaTeX report.
